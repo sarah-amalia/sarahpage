@@ -1,14 +1,15 @@
 ---
-title: Senior Detective
-date: 1990 - Present
-url: http://ropibbe.nf/savadru
-location: Los Angeles, California
-org: Los Angeles Police Department (LAPD)
-tags: ["Law Enforcement", "Police Work", "Tactical Operations", "Case Management"]
+title: Intern - Stakeholder Relations
+date: Sep - Dec 2024
+url: https://yogyakarta-airport.co.id/
+location: onsite | Kulon Progo - YK, ID
+org: Yogyakarta International Airport
+tags: ["Translation", "Content Structuring", "Localization"]
+weight: 2
 ---
+`Internship`
 
-- Lead investigations into organized crime, drug trafficking, and high-profile criminal activities.
-- Conducted extensive surveillance operations utilizing advanced equipment and techniques to gather critical intelligence.
-- Collaborated with federal agencies such as the FBI and DEA on joint task forces to dismantle criminal syndicates.
-- Played a pivotal role in numerous undercover operations, successfully infiltrating criminal organizations and gathering actionable evidence for prosecution.
-- Trained and mentored junior officers in surveillance tactics, undercover operations, and tactical maneuvers.
+- Collaborated with SME to translate and localize technical e-book on airport architectural design, adapting complex terminology for English readers.
+- Contributed content to official airport bulletin publication (2nd edition, 2025).
+- Developed a monthly content calendar for social media.
+- Tracked and classified media sentiment related to airport operations.

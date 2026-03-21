@@ -5,8 +5,8 @@ import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import { Icon } from "astro-icon/components";
 import * as about from "./about/about.md";
-
 const title = `${about.frontmatter.name} - ${about.frontmatter.designation}`;
+export const prerender = false;
 ---
 
 <BaseLayout title={title}>
@@ -31,7 +31,7 @@ const title = `${about.frontmatter.name} - ${about.frontmatter.designation}`;
   >
   </div>
   <main
-    class="mx-auto flex-grow max-h-[90vh] md:max-h-[70vh] max-w-3xl overflow-y-scroll py-2 grid w-[95vw]"
+    class="mx-auto flex-grow max-h-[85vh] md:max-h-[90vh] max-w-3xl overflow-y-scroll py-2 grid w-full px-4"
   >
     <div class="container">
       <Container />

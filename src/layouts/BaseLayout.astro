@@ -8,8 +8,8 @@ interface Props {
 }
 
 const {
-    title = "CV Template",
-    description = "A minimalist CV template built with Astro and Tailwind CSS",
+    title = "Sarah Amalia | Technical Writer",
+    description = "A personal web portfolio",
 } = Astro.props;
 ---
 
@@ -42,45 +42,169 @@ const {
 </html>
 
 <style is:global>
-    body {
-        font-family: "DM Sans Variable", sans-serif;
-    }
+.collapse-title {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 
-    @media (min-width: 768px) {
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-        }
-    }
+.collapse-content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 
-    @media only screen and (max-width: 480px) {
-        * {
-            font-size: 12px;
-        }
-    }
+.collapse-content {
+  transition: padding 0.3s ease !important;
+}
 
-    .overflow-y-scroll::-webkit-scrollbar {
-        width: 3px;
-    }
+* {
+    box-sizing: border-box;
+}
 
-    .overflow-y-scroll::-webkit-scrollbar-thumb {
-        background-color: oklch(var(--s));
-    }
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
 
-    .overflow-y-scroll {
-        scrollbar-width: 1px;
-    }
+body {
+    font-family: "DM Sans Variable", sans-serif;
+}
 
-    @media (max-width: 768px) {
-        .container {
-            flex-direction: column;
-        }
-    }
+/* Markdown alerts */
+.markdown-alert {
+    padding: 0.75rem 1rem;
+    border-left: 4px solid;
+    border-radius: 0.25rem;
+    margin: 1rem 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
 
-    @media (min-width: 768px) {
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-        }
+.markdown-alert p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.markdown-alert-note { border-color: #58a6ff; background: #1b3a5c22; }
+.markdown-alert-tip { border-color: #3fb950; background: #1b3a2222; }
+.markdown-alert-important { border-color: #a371f7; background: #2d1b5922; }
+.markdown-alert-warning { border-color: #d29922; background: #3d2a0022; }
+.markdown-alert-caution { border-color: #f85149; background: #3d0a0422; }
+
+.markdown-alert-title {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    text-transform: capitalize;
+}
+
+/* Prose */
+.prose * {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.prose img {
+    max-width: 100%;
+    height: auto;
+}
+
+.prose table {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.prose table td,
+.prose table th {
+    white-space: normal;
+    word-break: break-word;
+    min-width: 80px;
+    max-width: 200px;
+}
+
+.prose pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
+
+/* Prose details */
+.prose details {
+    margin-bottom: 4px;
+}
+
+.prose details summary {
+    list-style: none;
+    padding: 12px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    border-bottom: 0.5px solid oklch(var(--s) / 0.3);
+}
+
+.prose details summary::-webkit-details-marker {
+    display: none;
+}
+
+.prose details summary::after {
+    content: '▾';
+    opacity: 0.5;
+}
+
+.prose details[open] summary::after {
+    content: '▴';
+}
+
+.prose details > div,
+.prose details > p {
+    padding: 12px 0 8px;
+}
+
+/* Scrollbar */
+.overflow-y-scroll::-webkit-scrollbar {
+    width: 3px;
+}
+
+.overflow-y-scroll::-webkit-scrollbar-thumb {
+    background-color: oklch(var(--s));
+}
+
+.overflow-y-scroll {
+    scrollbar-width: 1px;
+}
+
+/* Object/figure */
+object {
+    overflow: hidden;
+    display: block;
+}
+
+figure {
+    overflow: hidden;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+    * {
+        font-size: 12px;
     }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 </style>

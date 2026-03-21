@@ -1,15 +1,16 @@
 ---
-title: Bachelor of Science in Criminal Justice
-location: University of California, Los Angeles (UCLA)
-url: http://foeberoz.gm/kuj
-institute: University of California
-date: 1970-1975
+title: Associate’s Degree in English
+location: Central Java, ID
+url: https://unsoed.ac.id/
+institute: Jenderal Soedirman University
+date: 2022-2025
+gpa: "3.74/4.0"
 tags:
   [
-    "Criminal Justice",
-    "Law Enforcement",
-    "Legal Studies",
-    "Public Safety",
-    "Court System",
+    "Content Writing",
+    "Digital Marketing",
+    "Translation",
+    "Professional Grammar",
+    "Creative Writing",
   ]
 ---

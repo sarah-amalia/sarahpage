@@ -4,44 +4,62 @@ import AccordionLayout from "../layouts/AccordionLayout.astro";
 import * as about from "../pages/about/about.md";
 import Card from "./Card.astro";
 import ContactCard from "./ContactCard.astro";
+import ExpandableCard from "./ExpandableCard.astro";
 
 type MarkdownInstance = {
   frontmatter: {
     title: string;
     date?: string;
+    weight?: number;
+    description?: string;
     tags?: string[];
     url?: string;
+    url_name?: string;
     org?: string;
     location?: string;
     institute?: string;
-    url_name?: string;
     icon?: string;
+    gpa?: string;
   };
   compiledContent: () => string;
 };
 
-const works = Object.values(import.meta.glob("../pages/works/*.md", { eager: true })) as MarkdownInstance[];
-const projects = Object.values(import.meta.glob("../pages/projects/*.md", { eager: true })) as MarkdownInstance[];
+const works = (Object.values(
+  import.meta.glob("../pages/works/*.md", { eager: true })
+) as MarkdownInstance[]).sort(
+  (a, b) => (a.frontmatter.weight ?? 99) - (b.frontmatter.weight ?? 99)
+);
+const projects = (Object.values(
+  import.meta.glob("../pages/projects/*.md", { eager: true })
+) as MarkdownInstance[]).sort(
+  (a, b) => (a.frontmatter.weight ?? 99) - (b.frontmatter.weight ?? 99)
+);
 const studies = Object.values(import.meta.glob("../pages/studies/*.md", { eager: true })) as MarkdownInstance[];
 const certificates = Object.values(import.meta.glob("../pages/certificates/*.md", { eager: true })) as MarkdownInstance[];
-const blogs = Object.values(import.meta.glob("../pages/blogs/*.md", { eager: true })) as MarkdownInstance[];
+const blogs = (Object.values(
+  import.meta.glob("../pages/blogs/*.md", { eager: true })
+) as MarkdownInstance[]).sort(
+  (a, b) => (a.frontmatter.weight ?? 99) - (b.frontmatter.weight ?? 99)
+);
 const contact = Object.values(import.meta.glob("../pages/contact/*.md", { eager: true })) as MarkdownInstance[];
-const PDF = "/cv-20240219.pdf";
+const PDF = "/images/git-common-sequence.png";
 ---
 
 <div class="join join-vertical gap-1">
-  <AccordionLayout title={"About"} icon={"carbon:identification"}>
-    <article class="text-justify">
+  <AccordionLayout title={"About Me"} icon={"carbon:identification"}>
+    <article class="prose prose-base max-w-none text-justify">
       <Fragment set:html={about.compiledContent()} />
     </article>
   </AccordionLayout>
 
-  <AccordionLayout title={"Work"} icon={"carbon:construction"}>
+  <AccordionLayout title={"Experience"} icon={"carbon:construction"}>
     {
       works.map((item) => {
         return (
           <Card
             title={item.frontmatter.title}
+            work_type={item.frontmatter.work_type}
+            work_mode={item.frontmatter.work_mode}
             timeframe={item.frontmatter.date}
             description={item.compiledContent()}
             tags={item.frontmatter.tags}
@@ -54,67 +72,103 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Studies"} icon={"carbon:education"}>
+  <AccordionLayout title={"My Free-writing"} icon={"carbon:pen"}>
+  <div class="w-full">
+    {blogs.map((item) => (
+      <details class="border-b border-[oklch(var(--s)/0.3)] py-3">
+        <summary class="cursor-pointer list-none flex justify-between items-center gap-4">
+          <div>
+            <p class="font-extrabold uppercase tracking-tighter">{item.frontmatter.title}</p>
+            {item.frontmatter.date && (
+              <p class="text-xs text-secondary font-mono mt-1">{item.frontmatter.date}</p>
+            )}
+          </div>
+          <div class="shrink-0 text-sm">
+            {item.frontmatter.url ? (
+              <a href={item.frontmatter.url} target="_blank" class="link link-hover flex items-center gap-1">
+                {item.frontmatter.url_name ?? "Read"}
+                <Icon name="carbon:link" class="w-4 h-4" />
+              </a>
+            ) : (
+              <span class="opacity-60 text-xs">Click to expand</span>
+            )}
+          </div>
+        </summary>
+
+        {!item.frontmatter.url && (
+          <div class="pt-4 pb-2" style="max-width: 100%; overflow: hidden;">
+            {item.frontmatter.description && (
+              <p class="text-secondary text-sm mb-3">{item.frontmatter.description}</p>
+            )}
+            {Array.isArray(item.frontmatter.tags) && (
+              <div class="flex flex-wrap gap-2 mb-4">
+                {item.frontmatter.tags.map((tag: string) => (
+                  <span class="badge badge-outline text-sm">{tag}</span>
+                ))}
+              </div>
+            )}
+            <article class="prose prose-sm max-w-none">
+              <Fragment set:html={item.compiledContent()} />
+            </article>
+            <div class="flex justify-center mt-6">
+              <button
+                class="btn btn-outline btn-sm"
+                onclick="this.closest('details').removeAttribute('open')"
+              >
+                <Icon name="carbon:chevron-up" class="w-4 h-4" />
+                Collapse
+              </button>
+            </div>
+          </div>
+        )}
+      </details>
+    ))}
+  </div>
+</AccordionLayout>
+  
+    <AccordionLayout title={"Projects"} icon={"carbon:tools"}>
+  {projects.map((item) => (
+    <ExpandableCard
+      title={item.frontmatter.title}
+      timeframe={item.frontmatter.date}
+      description={item.frontmatter.description}
+      tags={item.frontmatter.tags}
+      content={item.compiledContent()}
+      url={item.frontmatter.url}
+      url_name={item.frontmatter.url_name}
+    />
+  ))}
+</AccordionLayout>
+
+  <AccordionLayout title={"Education"} icon={"carbon:education"}>
     {
       studies.map((item) => {
         return (
           <Card
-            title={item.frontmatter.title}
-            timeframe={item.frontmatter.date}
-            location={item.frontmatter.location}
-            tags={item.frontmatter.tags}
-            url={item.frontmatter.url}
-            url_name={item.frontmatter.institute}
-          />
+          title={item.frontmatter.title}
+          timeframe={item.frontmatter.date}
+          location={item.frontmatter.location}
+          tags={item.frontmatter.tags}
+          url={item.frontmatter.url}
+          url_name={item.frontmatter.institute}
+          gpa={item.frontmatter.gpa}
+        />
         );
       })
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Projects"} icon={"carbon:tools"}>
-    {
-      projects.map((item) => {
-        return (
-          <Card
-            title={item.frontmatter.title}
-            timeframe={item.frontmatter.date}
-            description={item.compiledContent()}
-            tags={item.frontmatter.tags}
-            url={item.frontmatter.url}
-            url_name={"View project"}
-          />
-        );
-      })
-    }
-  </AccordionLayout>
-
-  <AccordionLayout title={"Certifications"} icon={"carbon:certificate"}>
+  <AccordionLayout title={"Personal Development"} icon={"carbon:certificate"}>
     {
       certificates.map((item) => {
         return (
           <Card
-            title={item.frontmatter.title}
-            timeframe={item.frontmatter.date}
-            description={item.compiledContent()}
-            tags={item.frontmatter.tags}
-            url={item.frontmatter.url}
-            url_name={"View Certificate"}
-          />
-        );
-      })
-    }
-  </AccordionLayout>
-
-  <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
-    {
-      blogs.map((item) => {
-        return (
-          <Card
-            title={item.frontmatter.title}
-            timeframe={item.frontmatter.date}
-            description={item.compiledContent()}
-            url={item.frontmatter.url}
-            url_name={item.frontmatter.url_name}
+          title={item.frontmatter.title}
+         timeframe={item.frontmatter.date}
+          description={item.compiledContent()}
+         tags={item.frontmatter.tags}
+         url={item.frontmatter.url}
+         url_name={item.frontmatter.org}
           />
         );
       })
@@ -126,16 +180,21 @@ const PDF = "/cv-20240219.pdf";
       <div
         class="card card-compact card-bordered border-[oklch(var(--s))] w-96 md:w-112 lg:w-128 hover:shadow-lg transition-all"
       >
-        <figure>
-          <object data={PDF} type="application/pdf" width="100%"></object>
-        </figure>
+                <figure class="overflow-hidden" style="overflow:hidden; max-width:100%;">
+            <object 
+              data={PDF} 
+              type="application/pdf" 
+              width="100%" 
+              style="height:200px; overflow:hidden; display:block; max-width:100%;"
+            ></object>
+          </figure>
         <div class="card-body">
-          <h2 class="card-title">Resume</h2>
-          <p>View and download my resume by clicking on the button below</p>
+          <h2 class="card-title">Git Cheatsheet</h2>
+          <p>View / download the common sequence of Git workflow by clicking on the button below</p>
           <div class="card-actions justify-end">
             <a target="_blank" href={PDF}>
               <button class="btn btn-outline">
-                <p>Download resume</p>
+                <p>View / Download</p>
                 <Icon name="carbon:document-pdf" class="w-6 h-6 ml-1" />
               </button>
             </a>
@@ -145,7 +204,7 @@ const PDF = "/cv-20240219.pdf";
     </div>
   </AccordionLayout>
 
-  <AccordionLayout title={"Contact"} icon={"carbon:location-person"}>
+  <AccordionLayout title={"Social"} icon={"carbon:location-person"}>
     <div class="flex flex-wrap content-around gap-4 justify-center">
       {
         contact.map((item) => {
