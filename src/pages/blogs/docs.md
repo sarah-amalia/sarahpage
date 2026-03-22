@@ -3,13 +3,13 @@ title: "Read the docs like a book"
 description: 
 tags: ["internet finds", "personal log"]
 date: 2026
-weight: 2
+weight: 3
 ---
 
 `⇒ This is my note-taking from Aaron Francis - 2023`
 
  ---   
-- Sit down with the documentation for your favorite tool and read it straight through. Front to back, cover to cover, like a book. 
+- Sit down with the documentation of your favorite tool and read it straight through. Front to back, cover to cover, like a book. 
         
 - Benefits of reading docs:
     - it establishes a mental map of the territory

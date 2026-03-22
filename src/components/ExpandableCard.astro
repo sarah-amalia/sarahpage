@@ -4,69 +4,79 @@ const { timeframe, title, description, tags, content, url, url_name, minimal } =
 ---
 
 {url ? (
-  <div class="border-b border-[oklch(var(--s)/0.3)] py-3 w-full flex justify-between items-start gap-4">
-    <div class="text-left flex-1">
-      <h1 class="uppercase font-extrabold tracking-tighter text-lg md:text-2xl">{title}</h1>
-      {timeframe && <p class="text-xs text-secondary mt-1 font-mono">{timeframe}</p>}
-      {!minimal && description && <p class="text-secondary text-sm mt-2">{description}</p>}
-      {!minimal && Array.isArray(tags) && (
-        <div class="flex flex-wrap gap-2 mt-3">
-          {tags.map((item: string) => (
-            <span class="badge text-sm badge-outline">{item}</span>
-          ))}
+  <div class="card card-compact card-bordered border border-[oklch(var(--s))] w-full hover:shadow-lg transition-all my-4">
+    <div class="card-body">
+      <div class="flex justify-between items-start gap-4">
+        <div class="text-left flex-1">
+          <h1 class="uppercase card-title font-extrabold tracking-tighter md:text-2xl">{title}</h1>
+          {timeframe && <p class="text-xs text-secondary mt-1 font-mono">{timeframe}</p>}
+          {!minimal && description && <p class="text-secondary text-sm mt-3">{description}</p>}
+          {!minimal && Array.isArray(tags) && (
+            <div class="flex flex-wrap gap-2 mt-3">
+              {tags.map((item: string) => (
+                <span class="badge text-sm badge-outline shadow-md">{item}</span>
+              ))}
+            </div>
+          )}
         </div>
-      )}
-    </div>
-    <div class="shrink-0 text-sm mt-1">
-      <a href={url} target="_blank" class="link link-hover flex items-center gap-1">
-        {url_name ?? "View project"}
-        <Icon name="carbon:link" class="w-4 h-4" />
-      </a>
+        <div class="shrink-0 text-sm self-start mt-1">
+          <a href={url} target="_blank" class="link link-hover flex items-center gap-1">
+            {url_name ?? "View project"}
+            <Icon name="carbon:link" class="w-4 h-4" />
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 ) : (
-  <div class="collapse rounded-none border-b border-[oklch(var(--s)/0.3)]">
-    <input type="checkbox" />
-    <div class="collapse-title min-h-0 py-4 px-0 flex justify-between items-start gap-2 md:gap-4" style="padding-left:0; padding-right:0;">
-      <div class="text-left flex-1">
-        <h1 class="uppercase font-extrabold tracking-tighter text-lg md:text-2xl">{title}</h1>
-        {timeframe && <p class="text-xs text-secondary mt-1 font-mono">{timeframe}</p>}
-        {!minimal && description && <p class="text-secondary text-sm mt-2">{description}</p>}
-        {!minimal && Array.isArray(tags) && (
-          <div class="flex flex-wrap gap-2 mt-3">
-            {tags.map((item: string) => (
-              <span class="badge text-sm badge-outline">{item}</span>
-            ))}
+  <details class="my-4 group">
+    <!-- Card — always visible -->
+    <summary class="list-none cursor-pointer group">
+  <div class="card card-compact card-bordered border border-[oklch(var(--s))] w-full transition-all group-hover:shadow-lg group-hover:border-opacity-80">
+        <div class="card-body">
+          <div class="flex justify-between items-start gap-4">
+            <div class="text-left flex-1">
+              <h1 class="uppercase card-title font-extrabold tracking-tighter md:text-2xl">{title}</h1>
+              {timeframe && <p class="text-xs text-secondary mt-1 font-mono">{timeframe}</p>}
+              {!minimal && description && <p class="text-secondary text-sm mt-3">{description}</p>}
+              {!minimal && Array.isArray(tags) && (
+                <div class="flex flex-wrap gap-2 mt-3">
+                  {tags.map((item: string) => (
+                    <span class="badge text-sm badge-outline shadow-md">{item}</span>
+                  ))}
+                </div>
+              )}
+            </div>
+            <div class="shrink-0 text-xs opacity-60 self-start mt-1">
+              Click to expand
+            </div>
           </div>
-        )}
+        </div>
       </div>
-      <div class="shrink-0 text-xs opacity-60 mt-1">Click to expand</div>
-    </div>
+    </summary>
 
-    <div class="collapse-content px-0">
-      <hr class="mb-6 opacity-20" />
-      {minimal && description && (
-        <p class="text-secondary text-sm mb-3">{description}</p>
-      )}
+    <!-- Content — outside card, appears below -->
+    <div class="px-2 pt-4 pb-8 overflow-hidden">
+      {minimal && description && <p class="text-secondary text-sm mb-3">{description}</p>}
       {minimal && Array.isArray(tags) && (
-        <div class="flex flex-wrap gap-2 mb-6">
+        <div class="flex flex-wrap gap-2 mb-4">
           {tags.map((item: string) => (
-            <span class="badge text-sm badge-outline">{item}</span>
+            <span class="badge text-sm badge-outline shadow-md">{item}</span>
           ))}
         </div>
       )}
-      <article class="prose prose-sm max-w-full break-words">
+      <article class="prose prose-sm max-w-none break-words">
         <Fragment set:html={content}></Fragment>
       </article>
-      <div class="flex justify-center mt-8">
+      <div class="flex justify-center mt-6">
         <button
-          class="btn btn-outline btn-sm gap-2"
-          onclick="this.closest('.collapse').querySelector('input').checked = false"
+          class="btn btn-outline btn-sm"
+          onclick="this.closest('details').removeAttribute('open')"
         >
           <Icon name="carbon:chevron-up" class="w-4 h-4" />
           Collapse
         </button>
       </div>
     </div>
-  </div>
+  </details>
 )}

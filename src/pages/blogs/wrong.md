@@ -3,7 +3,7 @@ title: "you are always doing something wrong"
 description: 
 tags: ["internet finds", "personal log"]
 date: 2026 
-weight: 2
+weight: 4
 ---
 
 `⇒ Here's my summary from Aaron Francis - 2024` 

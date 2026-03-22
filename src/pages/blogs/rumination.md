@@ -3,7 +3,7 @@ title: "Rumination"
 description: 
 tags: ["journal", "thoughts"]
 date: 2025
-weight: 3
+weight: 5
 ---
 
 `One of series of mind`

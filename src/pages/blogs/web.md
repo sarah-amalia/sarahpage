@@ -3,7 +3,7 @@ title: "several web I found tempting last night"
 description: 
 tags: ["internet finds", "personal log"]
 date: Feb 28, 2026
-weight: 1
+weight: 2
 ---
 
 I cannot sleep last night, because I am exploring all of this web. The web are mostly about life philosophy, mindset, motivation, behaviour, and essay--which the kind of topic I most interested about.
