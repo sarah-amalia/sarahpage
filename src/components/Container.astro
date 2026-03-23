@@ -51,13 +51,13 @@ const PDF = "/images/git-common-sequence.png";
 ---
 
 <div class="join join-vertical gap-1">
-  <AccordionLayout title={"About Me"} icon={"carbon:user"}>
+  <AccordionLayout title={"About me"} icon={"carbon:user"}>
     <article class="prose prose-base max-w-none text-justify">
       <Fragment set:html={about.compiledContent()} />
     </article>
   </AccordionLayout>
 
-  <AccordionLayout title={"Experience"} icon={"carbon:movement"}>
+  <AccordionLayout title={"Where I've been"} icon={"carbon:movement"}>
     {
       works.map((item) => {
         return (
@@ -77,7 +77,7 @@ const PDF = "/images/git-common-sequence.png";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"My Free-writing"} icon={"carbon:pen"}>
+  <AccordionLayout title={"My free-writing"} icon={"carbon:pen"}>
   <div class="w-full">
     {blogs.map((item) => (
       <details class="border-b border-[oklch(var(--s)/0.3)] py-3">
@@ -131,7 +131,7 @@ const PDF = "/images/git-common-sequence.png";
   </div>
 </AccordionLayout>
   
-    <AccordionLayout title={"Projects"} icon={"carbon:cyclist"}>
+    <AccordionLayout title={"Technical writing projects"} icon={"carbon:cyclist"}>
   {projects.map((item) => (
     <ExpandableCard
       title={item.frontmatter.title}
@@ -163,7 +163,7 @@ const PDF = "/images/git-common-sequence.png";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Credentials"} icon={"carbon:certificate"}>
+  <AccordionLayout title={"Milestones"} icon={"carbon:milestone"}>
     {
       certificates.map((item) => {
         return (
@@ -203,7 +203,7 @@ const PDF = "/images/git-common-sequence.png";
   </div>
 </AccordionLayout>
 
-  <AccordionLayout title={"Social"} icon={"carbon:cursor-1"}>
+  <AccordionLayout title={"Find me"} icon={"carbon:cursor-1"}>
     <div class="flex flex-wrap content-around gap-4 justify-center">
       {
         contact.map((item) => {
