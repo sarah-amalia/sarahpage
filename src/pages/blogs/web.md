@@ -48,8 +48,8 @@ I cannot sleep last night, because I am exploring all of this web. The web are m
     - Indonesia blocked this site. But it secured. If you want to try access reddit, you have to activate DNS on your browser (I choose cloudflare). If you use chrome browser you may go to setting > privacy and security > security > use secure DNS > select DNS provider > Cloudflare (1.1.1.1) > visit reddit.
 
 3. **Newsletter** - via [**substack**][11]
-    - This one feels like twitter (X) but less overwhelming. The posts of the creator kinda calming too.
-    - Writers and journalists often here. I feel the same vibe with [medium][12]. 
+    - This one feels like twitter (X) but less overwhelming. The posts of the creator is mostly essay and kinda calming too.
+    - Writers and journalists often here. 
 
 
 [1]: https://www.antislop.xyz/

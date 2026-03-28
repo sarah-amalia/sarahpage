@@ -14,6 +14,7 @@ tags:
     Communication,
     Team collaboration,
     Self-taught,
+    Analythical thinking,
     Native Indonesian,
   ]
 learning:
