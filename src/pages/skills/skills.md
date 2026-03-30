@@ -19,7 +19,6 @@ tags:
   ]
 learning:
  [
-  Python,
-  API,
+  API
  ]
 ---
