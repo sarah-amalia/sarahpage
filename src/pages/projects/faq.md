@@ -1,7 +1,7 @@
 ---
 title: FAQs | Help Center
 description: Structured FAQ documentation for CourseCorrect covering general questions, account access, features, pricing, privacy, and technical support.
-tags: ["HTML", "Markdown", "VS Code"]
+tags: [ User Support, Information Architecture, Content Design ]
 date: February 23, 2026
 weight: 4
 ---
