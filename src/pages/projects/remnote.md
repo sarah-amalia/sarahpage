@@ -1,7 +1,7 @@
 ---
 title: Remnote Installation Guide
 description: Installation guide for Remnote app covering all supported ways to download and install the application. 
-tags: []
+tags: [ End-User Documentation, UX Writing, Software Setup ]
 date: 2026
 weight: 5
 ---
