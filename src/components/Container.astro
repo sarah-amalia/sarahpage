@@ -40,7 +40,11 @@ const projects = (Object.values(
   (a, b) => (a.frontmatter.weight ?? 99) - (b.frontmatter.weight ?? 99)
 );
 const studies = Object.values(import.meta.glob("../pages/studies/*.md", { eager: true })) as MarkdownInstance[];
-const certificates = Object.values(import.meta.glob("../pages/certificates/*.md", { eager: true })) as MarkdownInstance[];
+const certificates = (Object.values(
+  import.meta.glob("../pages/certificates/*.md", { eager: true })
+) as MarkdownInstance[]).sort(
+  (a, b) => (a.frontmatter.weight ?? 99) - (b.frontmatter.weight ?? 99)
+);
 const blogs = (Object.values(
   import.meta.glob("../pages/blogs/*.md", { eager: true })
 ) as MarkdownInstance[]).sort(
