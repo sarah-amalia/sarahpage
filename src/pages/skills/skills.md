@@ -6,6 +6,7 @@ tags:
     VS code,
     Git,
     Github,
+    Postman,
     English,
     Information architecture,
     API documentation,
