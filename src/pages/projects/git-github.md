@@ -1,7 +1,7 @@
 ---
 title: Quick Reference Guide
 description: A quick reference guide and cheatsheet for Git and GitHub.
-tags: ["Markdown", "Git", "CLI", "GitHub", "VS Code"]
+tags: [Technical Documentation, CLI, Version Control]
 date: 2026
 weight: 2
 ---
