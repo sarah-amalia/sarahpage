@@ -1,7 +1,7 @@
 ---
 title: Sample Healthcare API
 description: Endpoint untuk membuat rekam medis pasien setelah kunjungan.
-tags: ["API", "SIM-RS", "patient_id"]
+tags: [ Developer Documentation, Health Information System, Compliance Writing ]
 date: 2026
 weight: 3
 ---
