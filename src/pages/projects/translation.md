@@ -11,7 +11,9 @@ weight: 1
 * The translation project followed a comprehensive and structured approach
 to ensure accuracy, clarity, and cultural appropriateness. 
 
-* This translation processwas carried out based on Suryawinata’s framework process and strategies, whichconsists of four stages: (a) analysis, (b) transfer, (c) restructuring, and (d)evaluation and revision. The observation, literature review, interview were implemented in this translation process.
+* This translation processwas carried out based on Suryawinata’s framework process and strategies, whichconsists of four stages: (a) analysis, (b) transfer, (c) restructuring, and (d)evaluation and revision. 
+
+* The observation, literature review, interview were implemented in this translation process.
 
 * Additionally, to maintain cultural nuances and original messages, nine translationtechniques were also used, they are literal translation, borrowing, transposition,modulation, amplification, reduction, equivalence, established equivalent, andalso descriptive.
 
