@@ -9,7 +9,7 @@ weight: 2
 ---
 `Internship`
 
-- Collaborated with SME to translate and localize technical e-book on airport architectural design, adapting complex terminology for English readers.
+- Collaborated with SME to translate (English - Indonesian) and localize e-book on airport architectural design, adapting Javanese art terminology for English readers.
 - Contributed content to official airport bulletin publication (2nd edition, 2025).
 - Developed a monthly content calendar for social media.
 - Tracked and classified media sentiment related to airport operations.
