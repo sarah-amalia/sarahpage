@@ -12,8 +12,10 @@ weight: 5
 
 I love the phrase 
 
-how you treat your mind   
-is the same thing on how you treat your garden.  
+> "how you treat your mind   
+> is the same thing on how you treat your garden."
+
+means that    
 any plant you water   
 is the one that grows. 
 
