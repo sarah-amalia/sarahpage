@@ -2,15 +2,18 @@
 tags:
   [
     Markdown,
-    HTML basic,
+    HTML,
     VS code,
     Git,
     Github,
-    Postman,
+    Postman, 
+    draw.io,
     English,
     Information architecture,
     API documentation,
     "Writing, Editing, & Proofreading",
+    Translation, 
+    Localization, 
     Attention to detail,
     Communication,
     Team collaboration,
@@ -20,6 +23,6 @@ tags:
   ]
 learning:
  [
-  API
+  API, CAT
  ]
 ---
