@@ -81,6 +81,20 @@ const PDF = "/images/git-common-sequence.png";
     }
   </AccordionLayout>
 
+   <AccordionLayout title={"My projects / works"} icon={"carbon:cyclist"}>
+  {projects.map((item) => (
+    <ExpandableCard
+      title={item.frontmatter.title}
+      timeframe={item.frontmatter.date}
+      description={item.frontmatter.description}
+      tags={item.frontmatter.tags}
+      content={item.compiledContent()}
+      url={item.frontmatter.url}
+      url_name={item.frontmatter.url_name}
+    />
+  ))}
+</AccordionLayout>
+
   <AccordionLayout title={"My free-writing"} icon={"carbon:pen"}>
   <div class="w-full">
     {blogs.map((item) => (
@@ -133,20 +147,6 @@ const PDF = "/images/git-common-sequence.png";
       </details>
     ))}
   </div>
-</AccordionLayout>
-  
-    <AccordionLayout title={"My projects / works"} icon={"carbon:cyclist"}>
-  {projects.map((item) => (
-    <ExpandableCard
-      title={item.frontmatter.title}
-      timeframe={item.frontmatter.date}
-      description={item.frontmatter.description}
-      tags={item.frontmatter.tags}
-      content={item.compiledContent()}
-      url={item.frontmatter.url}
-      url_name={item.frontmatter.url_name}
-    />
-  ))}
 </AccordionLayout>
 
   <AccordionLayout title={"Studies"} icon={"carbon:education"}>
