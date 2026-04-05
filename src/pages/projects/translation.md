@@ -1,6 +1,6 @@
 ---
 title: Translation Project - Yogyakarta International Airport 
-description: E-book translation from Indonesian to English about the architectural design of the Airport.
+description: E-book final project translation for YIA from Indonesian into English about the architectural design of the Airport.
 tags: [Translation, Localization, "Indonesian and Javanese - English"]
 date: 2024
 weight: 1
