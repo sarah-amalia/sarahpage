@@ -3,7 +3,7 @@ title: Quick Reference Guide
 description: A quick reference guide and cheatsheet for Git and GitHub.
 tags: [Technical Documentation, CLI, Version Control]
 date: 2026
-weight: 2
+weight: 3
 ---
 
 
