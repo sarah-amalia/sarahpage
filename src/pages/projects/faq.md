@@ -7,10 +7,10 @@ weight: 10
 ---
 
 
-# CourseCorrect Frequently Asked Questions
-Understand CourseCorrect by the topic below.
+# Frequently Asked Questions
+Understand this site by the topic below.
 
-## General Questions
+## About this site
 <details>
 <summary>What is this site?</summary>
 
@@ -36,35 +36,30 @@ I built this site in less than 2 days. But there will always be something to fix
 <details>
 <summary>Who can visit my site?</summary>
 
-AI-powered recommendations: Cora tailors suggestions to your goals.
-* Multi-provider search: Compare courses across multiple platforms in one place.
-* Career insights: See job roles, salary ranges, and growth potentioal per course.
-* Authenticated reviews: Genuine feedback from real students with sentiment analysis.
+At first this site actually intended to record my activities. After all, I suddenly don't like my portfolio website to apply for job, so I paused it. Then I use this to apply for job too.
+
+This is why this site has mixed vibe, more personal but also a bit formal. I aim to publish this site to share my free-writing too.
 
 </details>
 
-## Account & Access
+## About me
 
 <details>
-<summary>How do I create CourseCorrect account?</summary>
+<summary>What are you doing now?</summary>
 
-Simply sign in using your existing business account credentials. CourseCorrects uses secure enterprise authentication, so there's no additional password to remember.
-
-</details>
-
-<details>
-<summary>Can I change my email address?</summary>
-
-Your Email address on CourseCorrect is linked to your business account. To change your email address, you'll need to update it through your business account provider's settings. The change will automatically reflect in your CourseCorrect account the next time you log in.
+Previously, I am learning technical writing to pursue my career in tech field. But in some part, I realize I may deep dive for technical writing as my hobby. So I currently getting back my focus in English field while still learning tech world.
 
 </details>
 
 <details>
-<summary>How do I delete my account?</summary>
+<summary>What job can you do?</summary>
 
-Currently, there is no self-service account deletion option available. However, you can log out of your CourseCorrect account at any time using the log out button. If you need your account permanently removed, please contact our support team for assistance with account deletion.
+My background is English, writing, and translation. I may passionately do those kind of job along with my tech knowledge to support my work. I love researching and continous learning.
 
 </details>
+
+<details>
+
 
 ## Features and Functionality
 
