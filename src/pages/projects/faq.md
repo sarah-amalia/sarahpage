@@ -1,9 +1,9 @@
 ---
 title: FAQs | Help Center
-description: Structured FAQ documentation for CourseCorrect covering general questions, account access, features, pricing, privacy, and technical support.
-tags: [ User Support, Information Architecture, Content Design ]
-date: February 23, 2026
-weight: 4
+description: FAQs that might pop up on your head about this site
+tags: [  ]
+date: April 6, 2026
+weight: 10
 ---
 
 
@@ -12,43 +12,29 @@ Understand CourseCorrect by the topic below.
 
 ## General Questions
 <details>
-<summary>What is CourseCorrect?</summary>
+<summary>What is this site?</summary>
 
-An AI-powered platform that helps you discover the best online courses from multiple providers (Coursera, Udemy, edX, etc.).   
-It matches the courses with your:   
-✔ Career goals   
-✔ Skill level   
-✔ Learning preferences   
-Plus, it provides career insights (job roles, salaries) and AI recommendations via Cora.
+Hi thank you for visiting my site.  
+I called this site as my personal space for sharing my life activtiesas I grow my career. 
 
 </details>
 
 <details>
-<summary>How does CourseCorrect work?</summary>
+<summary>How do you build this site?</summary>
 
-CourseCorrect works through three main components:
-1. Search and Filters  
-Use the search bar with auto-suggestions and filter by level, language, and provider.
-2. AI Matching (Cora)  
-Answer a few questions; get personalized course recommendations in 2 minutes.
-3. Course Details  
-Explore career insights, reviews, overview, curriculum and more before enrollment.
+I build this site using Astro and cv theme they have--you can click the link on my footer at the end of this site. I made several customization including this dropdown faqs, dropdown style, and layout. 
 
 </details>
 
 <details>
-<summary>Who should use CourseCorrect?</summary>
+<summary>Is this site up-to-date?</summary>
 
-CourseCorrect is designed for anyone looking to advance their skills and career through online learning:   
-✔ Career Changers---Find skills needed for new roles.   
-✔ Professionals---Upskill for promotions or industry shifts.  
-✔ Students and Lifelong Learners---Supplement education or explore interests.  
-✔ Busy Learners---Save time with AI-curated courses.
+I built this site in less than 2 days. But there will always be something to fix. Updating my site is my daily activities, I 100% would say my site is up-to-date and always stay current. 
 
 </details>
 
 <details>
-<summary>What makes CourseCorrect different?</summary>
+<summary>Who can visit my site?</summary>
 
 AI-powered recommendations: Cora tailors suggestions to your goals.
 * Multi-provider search: Compare courses across multiple platforms in one place.
