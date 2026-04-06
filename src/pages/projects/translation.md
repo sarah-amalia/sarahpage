@@ -1,21 +1,23 @@
 ---
 title: Translation Project - Yogyakarta International Airport 
-description: E-book final project translation for YIA from Indonesian into English about the architectural design of the Airport.
-tags: [Translation, Localization, "Indonesian and Javanese - English"]
+description: English version E-book about the architectural design of Yogyakarta International Airport, covering cultural artworks, Javanese philosophical concepts, and historical narratives intended for international readers.
+tags: [Translation, Localization, "Indonesian and Javanese - English", Content Structuring]
 date: 2024
 weight: 1
 ---
 
-### Project Overview 
+### Key Contributions:  
 
-* The translation project followed a comprehensive and structured approach
-to ensure accuracy, clarity, and cultural appropriateness. 
+* Collaborated with academic supervisors for translation quality review and the e-book author to align the output with the intended message and tone.
 
-* This translation processwas carried out based on Suryawinata’s framework process and strategies, whichconsists of four stages: (a) analysis, (b) transfer, (c) restructuring, and (d)evaluation and revision. 
+* Applied 9 translation techniques across 300+ sentences: literal translation (122), borrowing (77), transposition (62), modulation (46), established equivalent (29), amplification (17), reduction (7), equivalence, and descriptive — selecting the most contextually appropriate method per sentence.
 
-* The observation, literature review, interview were implemented in this translation process.
+* Maintained cultural accuracy by preserving original Javanese terms while adding brief descriptive explanations (localization) for non-Indonesian readers.
 
-* Additionally, to maintain cultural nuances and original messages, nine translationtechniques were also used, they are literal translation, borrowing, transposition,modulation, amplification, reduction, equivalence, established equivalent, andalso descriptive.
+* Revised and refined drafts based on feedback from both academic supervisor and company mentor, ensuring consistency in tone, terminology, and grammar throughout the document.
+
+* Proofread and edited translated output for grammatical, punctuation, and stylistic errors before final submission
+
 
 ### Direct view 
 
