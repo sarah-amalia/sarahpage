@@ -20,8 +20,5 @@ to ensure accuracy, clarity, and cultural appropriateness.
 ### Direct view 
 
 * **English Translation / my work**  
-<a href="https://online.flippingbook.com/view/313001583/" class="fbo-embed" data-fbo-id="717e9342b5" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">JOGJA RENAISANS</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=313001583"></script>
-
-* **Original e-book**  
-<a href="https://online.flippingbook.com/view/312663257/" class="fbo-embed" data-fbo-id="2c5f9c5975" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Original Version_Jogja Renaissance_YIA</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=312663257"></script>
+https://heyzine.com/flip-book/30688593e9.html
   
