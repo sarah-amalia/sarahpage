@@ -27,7 +27,7 @@ I build this site using Astro and cv theme they have--you can click the link on 
 </details>
 
 <details>
-<summary>Is this site up-to-date?</summary>
+<summary>How often is this site updated??</summary>
 
 I built this site in less than 2 days. But there will always be something to fix. Updating my site is my daily activities, I 100% would say my site is up-to-date and always stay current. 
 
@@ -58,75 +58,39 @@ My background is English, writing, and translation. I may passionately do those 
 
 </details>
 
-<details>
 
-
-## Features and Functionality
+## Personal life--English
 
 <details>
-<summary>How accurate are CourseCorrect recommendations?</summary>
+<summary>How would you describe your English skills?</summary>
 
-Cora AI delvier relevant suggestions by analyzing:
-* Your stated goals and experience level
-* Popular courses among similar learners
-* Real-time quality indicators
-* Authenticated reviews from actual students
-
-_*Note: The more specific information you provide to Cora AI about your goals and background, the more accurate and personalized your recommendations become._
+I would only say "see my work to see how my English level". We all have different standard in the level of expertise measurement.
 
 </details>
 
 <details>
-<summary>How can I compare courses?</summary>
+<summary>Why you choose English as your focus?</summary>
 
-You can ask Cora AI to compare courses you're interested in. It will provide your options' pros and cons, helping you make informed decisions based on your goals and learning needs.
-
-_*Note: Make sure your prompt and command is detail as possible_
+My English skill feels come naturally by the environment and myself. I live in countryside and my English skill always standout among my peers since I was a kid until Senior High School. So I choose English because I have nothing else expertation, English is my top of mind currently.
 
 </details>
 
 <details>
-<summary>Can I track multiple career goals?</summary>
+<summary>How long have you learn English?</summary>
 
-Yes! You can explore multiple career paths by:  
-* Using Cora to explore different career options
-* Bookmarking/saving courses manually
-* Comparing career options by reviewing the career insights section for each course
+I learn English formally like everyone else, since 2nd grade elementary school. I stop learning English intentionally and academically until senior high school. 
 
 </details>
 
 <details>
-<summary>Does CourseCorrect handle course transactions?</summary>
+<summary>How do you learn English?</summary>
 
-No. CourseCorrect is a course discovery platform that:
-* Directs you to providers for enrollment.
-* Displays all pricing in the "Course Details" section.
-* Never process payment directly.
+I am not a great learner actually. I just doing what I like. I start my English familiarity from my father, he loves English classic song. I love watching movies since I was a kid until 10 grade of school because of my brother and sister. And currently I more like my English knowledge to support my other focus.
 
 </details>
 
-<details>
-<summary>Are course reviews trustworthy?</summary>
 
-Yes! CourseCorrect authenticates all course reviews to ensure genuine insights from real learners. It's provide transparent, honest feedback to help you make informed learning decisions.
-
-</details>
-
-<details>
-<summary>How often is content updated?</summary>
-
-CourseCorrect continuously updates its course database to ensure you have access to the latest offerings from all provider platforms. New courses are added regularly as they become available from our partner providers.
-
-</details>
-
-<details>
-<summary>How often is content updated?</summary>
-
-CourseCorrect continuously updates its course database to ensure you have access to the latest offerings from all provider platforms. New courses are added regularly as they become available from our partner providers.
-
-</details>
-
-## Pricing & Plans
+## Personal life--Tech
 
 <details>
 <summary>How much does CourseCorrect cost?</summary>
@@ -147,7 +111,7 @@ All users have access to every feature:
 
 </details>
 
-## Privacy & Security
+## Personal life--Writing
 
 <details>
 <summary>How is my data protected?</summary>
