@@ -21,10 +21,4 @@ to ensure accuracy, clarity, and cultural appropriateness.
 
 * **English Translation / my work**  
 
- <img
-  src="https://online.fliphtml5.com/sarah-project/gxjf/files/shot.jpg"
-  data-rel="fh5-light-box-demo"
-  data-href="https://online.fliphtml5.com/sarah-project/gxjf/"
-  data-width="400" data-height="250" data-title=""
- >
-
+ <a href="https://online.flippingbook.com/view/454451565/" class="fbo-embed" data-fbo-id="1a823c0a50" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">JOGJA RENAISSANCE | THE STORY</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=454451565"></script>
