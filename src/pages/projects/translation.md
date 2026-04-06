@@ -20,5 +20,5 @@ to ensure accuracy, clarity, and cultural appropriateness.
 ### Direct view 
 
 * **English Translation / my work**  
-https://heyzine.com/flip-book/30688593e9.html
+<div style="position:relative;padding-top:max(60%,324px);width:100%;height:0;"><iframe style="position:absolute;border:none;width:100%;height:100%;left:0;top:0;" src="https://online.fliphtml5.com/sarah-project/gxjf/" title="JOGJA RENAISANS.pdf_20260406_090455_0000" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" ></iframe></div>
   
