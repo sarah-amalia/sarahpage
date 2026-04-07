@@ -1,20 +1,19 @@
 ---
-title: FAQs | Help Center
-description: FAQs that might pop up on your head about this site
+title: FAQs that might pop up on your head about this site
+description: Hi thank you for visiting my site.  
 tags: [  ]
 date: April 6, 2026
 weight: 10
 ---
 
 
-# Frequently Asked Questions
+# Help Center
 Understand this site by the topic below.
 
 ## About this site
 <details>
 <summary>What is this site?</summary>
 
-Hi thank you for visiting my site.  
 I called this site as my personal space for sharing my life activtiesas I grow my career. 
 
 </details>
