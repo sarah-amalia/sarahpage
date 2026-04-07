@@ -33,11 +33,9 @@ I built this site in less than 2 days. But there will always be something to fix
 </details>
 
 <details>
-<summary>Who can visit my site?</summary>
+<summary>Why you choose astro and CV esquelete theme?</summary>
 
-At first this site actually intended to record my activities. After all, I suddenly don't like my portfolio website to apply for job, so I paused it. Then I use this to apply for job too.
-
-This is why this site has mixed vibe, more personal but also a bit formal. I aim to publish this site to share my free-writing too.
+I am always looking for simple and minimalist design. At first, I really like static site generator because I previously use Hugo. Later on I found Astro is much more comfortable for me. And about the CV esquelete theme it's all because  the layout and navigation behaviour. I want to put all of my informationin a single page and there's no need to load and wait to the next page. 
 
 </details>
 
