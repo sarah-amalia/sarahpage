@@ -2,7 +2,7 @@
 title: FAQs that might pop up on your head about this site
 description: Hi thank you for visiting my site.  
 tags: [  ]
-date: April 6, 2026
+date:  2026
 weight: 10
 ---
 
