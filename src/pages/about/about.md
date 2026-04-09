@@ -4,7 +4,7 @@ name: "Sarah Amalia"
 designation: "Writer | Translator"
 location: West Java, ID
 pronouns: "she/her"
-website: "*this site is under maintanance"
+website: "https://sarah-tw.vercel.app/"
 ---
 
 
