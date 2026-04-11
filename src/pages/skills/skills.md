@@ -24,6 +24,6 @@ tags:
   ]
 learning:
  [
-  API, CAT
+  CAT
  ]
 ---
