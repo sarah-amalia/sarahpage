@@ -8,6 +8,7 @@ tags:
     Github,
     Postman, 
     draw.io,
+    Notion, 
     English,
     Information architecture,
     API documentation,
