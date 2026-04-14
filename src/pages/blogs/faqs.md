@@ -51,7 +51,7 @@ I currently learning new things and exploring variety of tools as I grow my care
 <details>
 <summary>What job can you do?</summary>
 
-My background is English, writing, and translation amd want to expand my expertise in tech. I may passionately do those kind of job along with my tech knowledge to support my work. I love researching and continous learning.
+My background is English, writing, and translation amd want to expand my expertise in tech. I may passionately do those kind of job along with my tech knowledge to support my work. I love researching, discussion, and continous learning.
 
 </details>
 
