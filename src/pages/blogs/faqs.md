@@ -14,7 +14,7 @@ Understand this site by the topic below.
 <details>
 <summary>What is this site?</summary>
 
-I called this site as my personal space for sharing my life activtiesas I grow my career. 
+I called this site as my personal space for sharing my life activties as I grow my career. 
 
 </details>
 
@@ -44,14 +44,14 @@ I am always looking for simple and minimalist design. At first, I really like st
 <details>
 <summary>What are you doing now?</summary>
 
-Previously, I am learning technical writing to pursue my career in tech field. But in some part, I realize I may deep dive for technical writing as my hobby. So I currently getting back my focus in English field while still learning tech world.
+I currently learning new things and exploring variety of tools as I grow my career in tech.
 
 </details>
 
 <details>
 <summary>What job can you do?</summary>
 
-My background is English, writing, and translation. I may passionately do those kind of job along with my tech knowledge to support my work. I love researching and continous learning.
+My background is English, writing, and translation amd want to expand my expertise in tech. I may passionately do those kind of job along with my tech knowledge to support my work. I love researching and continous learning.
 
 </details>
 
