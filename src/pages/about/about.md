@@ -2,7 +2,7 @@
 title: about
 name: "Sarah Amalia"
 designation: "Technical Writer"
-location: West Java, ID 🇮🇩
+location: Indonesia
 pronouns: "she/her"
 website: "https://sarah-tw.vercel.app/"
 ---
