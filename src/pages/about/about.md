@@ -1,14 +1,13 @@
 ---
 title: about
 name: "Sarah Amalia"
-designation: "Technical Writer"
-location: Indonesia
+designation: "Technical Support & Writer"
+location: West Java, ID
 pronouns: "she/her"
 website: "https://sarah-tw.vercel.app/"
 ---
 
 
-Hi, I'm Sarah,  
-a writing enthusiast with strong fundamental skill in English. I love transforming complex things into structured writing which easy to understand for both technical and non-technical audiences. I enjoy the process of translation and creating structured writing which scannable for readers. 
+a Technical Writer expanding into Technical Support and Operations. I love making complex things understandable through structured documentation, actionable guides, and troubleshooting for both technical and non-technical audiences.
 
-I have long-driven interest in tech and committed to continuous learning as I grow my career in English and tech field. 
+I have a long-driven interest in how systems work, and I am committed to continuous learning as I grow at the intersection of English, writing, and tech.
