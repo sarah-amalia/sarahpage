@@ -6,10 +6,7 @@ date: 2026 - ongoing
 weight: 1
 ---
 
-## Role
-Technical Support and Operations
-
-## Description
+## Role : Technical Support and Operations
 On the technical side, I owned support and operations end-to-end. My teammate covered the marketing side.
 
 ## Key Contributions
