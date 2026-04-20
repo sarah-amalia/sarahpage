@@ -1,6 +1,6 @@
 ---
 title: outryx - Team Featured Project
-description: A quick reference guide and cheatsheet for Git and GitHub.
+description: outryx is a project simulating a real SaaS product — an email marketing automation platform.
 tags: [Help Desk, Ticketing System, Knowledge Base, System Monitoring, SQL, API Documentation, Zoho Desk, Postman]
 date: 2026 - ongoing
 weight: 1
@@ -10,7 +10,7 @@ weight: 1
 Technical Support and Operations
 
 ## Description
-Outryx is a team portfolio project simulating a real SaaS product. On the technical side, I owned support and operations end-to-end. My teammate covered the marketing side.
+On the technical side, I owned support and operations end-to-end. My teammate covered the marketing side.
 
 ## Key Contributions
 
