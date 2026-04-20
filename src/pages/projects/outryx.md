@@ -23,8 +23,8 @@ On the technical side, I owned support and operations end-to-end. My teammate co
 
 ## Links
 
-- [Live Product](https://outryx.vercel.app)
-- [Help Center](https://outryx.zohodesk.com/portal/en/home)
-- [System Status](https://stats.uptimerobot.com/4Jr0kuTwcT)
-- [API Docs](https://outryx.docs.buildwithfern.com)
-- [SQL Queries](https://github.com/sarah-amalia/outryx-sql-queries)
+- [outryx.vercel.app](https://outryx.vercel.app)
+- [Help Center - Sogo Desk](https://outryx.zohodesk.com/portal/en/home)
+- [outryx System Status](https://stats.uptimerobot.com/4Jr0kuTwcT)
+- [API Docs - on Fern from Postman](https://outryx.docs.buildwithfern.com)
+- [SQL Queries - on GitHub](https://github.com/sarah-amalia/outryx-sql-queries)
