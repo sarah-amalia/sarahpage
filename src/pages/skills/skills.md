@@ -1,8 +1,15 @@
 ---
 tags:
   [
-    Markdown,
-    HTML,
+    Zoho Desk,
+    Technical Support,
+    Help Desk,
+    Ticketing System, 
+    System Monitoring, 
+    UptimeRobot,  
+    Supabase SQL, 
+    Markdown, 
+    HTML, 
     VS code,
     Git,
     Github,
@@ -24,6 +31,6 @@ tags:
   ]
 learning:
  [
-  CAT
+  
  ]
 ---
