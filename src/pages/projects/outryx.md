@@ -15,7 +15,7 @@ On the technical side, I owned support and operations end-to-end. My teammate co
 
 - Deployed and maintained Outryx landing page on Vercel, monitored via UptimeRobot with 100% uptime
 - Set up Zoho Desk ticketing system with custom classifications, priority levels, and status pipeline
-- Handled and resolved 10 support cases covering login issues, API errors, payment failures, campaign errors, and webhook escalation
+- Created and resolved 10 support scenarios in Zoho Desk covering login failures, API authentication errors, payment gateway failures, feature issues, and webhook escalation — including full ticket documentation and resolution notes.
 - Built knowledge base with 7 articles covering login issues, API errors, payment failures, dashboard and feature issues, and webhook troubleshooting.
 - Documented system incident INC-001 with full root cause analysis and prevention steps
 - Designed and documented a full REST API simulation in Postman — 15 endpoints across Authentication, Campaign, Webhook, Subscription, and Analytics — with mock server, success and error response examples, and public documentation.
