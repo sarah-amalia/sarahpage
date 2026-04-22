@@ -18,7 +18,7 @@ On the technical side, I owned support and operations end-to-end. My teammate co
 - Handled and resolved 10 support cases covering login issues, API errors, payment failures, campaign errors, and webhook escalation
 - Built knowledge base with troubleshooting guides and account management articles
 - Documented system incident INC-001 with full root cause analysis and prevention steps
-- Created API documentation in Postman covering 5 endpoint categories
+- Designed and documented a full REST API simulation in Postman — 15 endpoints across Authentication, Campaign, Webhook, Subscription, and Analytics — with mock server, success and error response examples, and public documentation.
 - Built support database in Supabase with SQL queries for ticket and user management
 
 ## Links
@@ -26,5 +26,6 @@ On the technical side, I owned support and operations end-to-end. My teammate co
 - [outryx.vercel.app](https://outryx.vercel.app)
 - [Help Center - Zoho Desk](https://outryx.zohodesk.com/portal/en/home)
 - [outryx System Status](https://stats.uptimerobot.com/4Jr0kuTwcT/802877012)
-- [API Docs - on Fern from Postman](https://outryx.docs.buildwithfern.com)
+- [API Docs - Postman](
+https://documenter.getpostman.com/view/47296527/2sBXqFLh6V)
 - [SQL Queries - on GitHub](https://github.com/sarah-amalia/outryx-sql-queries)
