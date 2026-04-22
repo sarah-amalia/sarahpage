@@ -8,6 +8,5 @@ website: "https://sarah-tw.vercel.app/"
 ---
 
 Hi, im Sarah,  
-a Technical Writer expanding into Technical Support and Operations. I love making complex things understandable through structured documentation, actionable guides, and troubleshooting for both technical and non-technical audiences.
-
-I have a long-driven interest in how systems work, and I am committed to continuous learning as I grow at the intersection of English, writing, and tech.
+I come from an English background with a natural inclination for clear, structured writing. I've directed that into 
+tech—building experience at the intersection of technical support, documentation, and operations.
