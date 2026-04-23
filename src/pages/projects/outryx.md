@@ -13,13 +13,12 @@ On the technical side, I owned support and operations end-to-end. My teammate co
 
 ## Key Contributions
 
-- Deployed and maintained Outryx landing page on Vercel, monitored via UptimeRobot with 100% uptime
-- Set up Zoho Desk ticketing system with custom classifications, priority levels, and status pipeline
-- Created and resolved 10 support scenarios in Zoho Desk covering login failures, API authentication errors, payment gateway failures, feature issues, and webhook escalation — including full ticket documentation and resolution notes.
+Deployed and maintained outryx landing page on Vercel, monitored via UptimeRobot with 100% uptime.- Set up Zoho Desk ticketing system with custom classifications, priority levels, and status pipeline.
+- Created and resolved 8 support scenarios in Zoho Desk covering login failures, account access issues, API authentication errors, payment failures, webhook issues, and feature malfunctions — including full ticket documentation and resolution notes.
 - Built knowledge base with 7 articles covering login issues, API errors, payment failures, dashboard and feature issues, and webhook troubleshooting.
-- Documented system incident INC-001 with full root cause analysis and prevention steps
+- Documented system incident INC-001 with full root cause analysis, timeline, impact assessment, and prevention steps.
 - Designed and documented a full REST API simulation in Postman — 15 endpoints across Authentication, Campaign, Webhook, Subscription, and Analytics — with mock server, success and error response examples, and public documentation.
-- Built support database in Supabase with SQL queries for ticket and user management
+- Designed support database schema in Supabase (PostgreSQL) and wrote SQL queries for ticket tracking, user management, and support reporting.
 
 ## Links
 
@@ -29,3 +28,4 @@ On the technical side, I owned support and operations end-to-end. My teammate co
 - [API Docs - Postman](
 https://documenter.getpostman.com/view/47296527/2sBXqFLh6V)
 - [SQL Queries - on GitHub](https://github.com/sarah-amalia/outryx-sql-queries)
+- [Incident Report - on GitHub](https://github.com/sarah-amalia/outryx-incident-report/blob/main/INC-001.md)
