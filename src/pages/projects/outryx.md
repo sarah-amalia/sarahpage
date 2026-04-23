@@ -7,14 +7,9 @@ weight: 1
 ---
 
 # Project Overview
+outryx is a team portfolio project simulating a real SaaS email marketing automation platform. I owned support and operations end-to-end — from help desk and knowledge base to API documentation, system monitoring, and support database. My teammate handled the marketing side.
 
 ## Role: Technical Support & Operations
-
-outryx is a team portfolio project simulating a real SaaS email 
-marketing automation platform. I owned support and operations 
-end-to-end — from help desk and knowledge base to API documentation, 
-system monitoring, and support database. My teammate handled 
-the marketing side.
 
 ## Key Contributions
 
