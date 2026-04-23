@@ -1,11 +1,10 @@
 ---
-title: Sample REST API endpoint for EMR
-description: Documented a REST API endpoint for an electronic medical record (EMR) system. Covering authorization rules, SOAP field specifications, request/response examples, error codes, and regulatory compliance notes (Permenkes No. 24/2022).
-tags: [ EMR, Health Information System, REST API ]
+title: Sample Healthcare API
+description: REST API documentation for an electronic medical record (EMR) system — covering authorization rules, SOAP field specifications, request/response examples, error codes, and regulatory compliance notes.
+tags: [API Documentation, REST API, Health Information System, Technical Writing]
 date: 2026
-weight: 3
+weight: 2
 ---
-
 
 ## 1. Endpoint overview
 

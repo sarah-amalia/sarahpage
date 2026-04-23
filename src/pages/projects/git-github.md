@@ -1,9 +1,9 @@
 ---
 title: Quick Reference Guide
-description: A quick reference guide and cheatsheet for Git and GitHub.
-tags: [Technical Documentation, CLI, Version Control]
+description: A single-page reference guide and cheatsheet covering Command Line basics, Git, and GitHub — written for beginners and developers getting started with version control.
+tags: [Technical Documentation, CLI, Version Control, Git, GitHub]
 date: 2026
-weight: 3
+weight: 4
 ---
 
 

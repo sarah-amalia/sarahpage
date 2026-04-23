@@ -1,9 +1,9 @@
 ---
-title: Translation Project - Yogyakarta International Airport 
-description: English version E-book about the architectural design of Yogyakarta International Airport, covering cultural artworks, Javanese philosophical concepts, and historical narratives intended for international readers.
-tags: [Translation, Localization, "Indonesian and Javanese - English", Content Structuring]
+title: Translation Project - Yogyakarta International Airport
+description: Translated and localized an e-book on the architectural design of Yogyakarta International Airport from Indonesian to English — adapting Javanese cultural terminology and historical narratives for international readers.
+tags: [Translation, Localization, Indonesian to English, Content Structuring, Technical Writing]
 date: 2024
-weight: 10
+weight: 7
 ---
 
 ### Key Contributions:  

@@ -1,11 +1,10 @@
 ---
 title: Remnote Installation Guide
-description: Installation guide for Remnote app covering all supported ways to download and install the application. 
-tags: [ End-User Documentation, UX Writing, Software Setup ]
+description: Installation guide for Remnote covering all supported platforms — Windows, Mac (Apple Silicon and Intel), Linux, Android, iOS, and Chrome extension.
+tags: [End-User Documentation, UX Writing, Software Setup, Installation Guide]
 date: 2026
 weight: 5
 ---
-
 
 # Remnote Installation Guide
 

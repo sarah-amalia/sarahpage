@@ -1,6 +1,6 @@
 ---
 title: outryx - Team Featured Project
-description: outryx is a project simulating a real SaaS product — an email marketing automation platform.
+description: A SaaS simulation project for an email marketing automation platform. I owned support and operations end-to-end — help desk, knowledge base, API documentation, system monitoring, and SQL database.
 tags: [Help Desk, Ticketing System, Knowledge Base, System Monitoring, SQL, API Documentation, Zoho Desk, Postman, Supabase, GitHub, Vercel, UptimeRobot]
 date: 2026 - ongoing
 weight: 1
@@ -8,8 +8,13 @@ weight: 1
 
 # Project Overview
 
-## Role : Technical Support and Operations
-On the technical side, I owned support and operations end-to-end. My teammate covered the marketing side.
+## Role: Technical Support & Operations
+
+outryx is a team portfolio project simulating a real SaaS email 
+marketing automation platform. I owned support and operations 
+end-to-end — from help desk and knowledge base to API documentation, 
+system monitoring, and support database. My teammate handled 
+the marketing side.
 
 ## Key Contributions
 
