@@ -9,11 +9,11 @@ weight: 1
 # Project Overview
 outryx is a team portfolio project simulating a real SaaS email marketing automation platform. I owned support and operations end-to-end — from help desk and knowledge base to API documentation, system monitoring, and support database. My teammate handled the marketing side.
 
-## Role: Technical Support & Operations
+## Role: 
+Technical Support & Operations
 
-## Key Contributions
-
-Deployed and maintained outryx landing page on Vercel, monitored via UptimeRobot with 100% uptime.- Set up Zoho Desk ticketing system with custom classifications, priority levels, and status pipeline.
+## Key Contributions:
+- Deployed and maintained outryx landing page on Vercel, monitored via UptimeRobot with 100% uptime.- Set up Zoho Desk ticketing system with custom classifications, priority levels, and status pipeline.
 - Created and resolved 8 support scenarios in Zoho Desk covering login failures, account access issues, API authentication errors, payment failures, webhook issues, and feature malfunctions — including full ticket documentation and resolution notes.
 - Built knowledge base with 7 articles covering login issues, API errors, payment failures, dashboard and feature issues, and webhook troubleshooting.
 - Documented system incident INC-001 with full root cause analysis, timeline, impact assessment, and prevention steps.
