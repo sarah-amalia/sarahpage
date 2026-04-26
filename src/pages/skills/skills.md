@@ -15,6 +15,7 @@ tags:
     Github,
     Postman, 
     draw.io,
+    Google Sheets, 
     Notion, 
     English,
     Information architecture,
@@ -31,6 +32,6 @@ tags:
   ]
 learning:
  [
-  
+  Java
  ]
 ---
