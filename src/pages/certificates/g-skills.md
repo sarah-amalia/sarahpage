@@ -7,5 +7,5 @@ url: https://www.skills.google/public_profiles/ca1994b9-5f89-4004-9472-b21eb6a60
 weight: 3
 ---
 
-- Google Sheets basic - on [Google Skills](https://www.skills.google/public_profiles/ca1994b9-5f89-4004-9472-b21eb6a60e0f/badges/23804440)
+- Google Sheets basic - [Badges](https://www.skills.google/public_profiles/ca1994b9-5f89-4004-9472-b21eb6a60e0f/badges/23804440)
 - Google sheets advance topic - [Badges](https://www.skills.google/public_profiles/ca1994b9-5f89-4004-9472-b21eb6a60e0f/badges/23913598)
