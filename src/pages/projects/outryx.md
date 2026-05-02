@@ -1,7 +1,7 @@
 ---
 title: outryx - Team Featured Project
 description: A SaaS simulation project for an email marketing automation platform. I owned support and operations end-to-end — help desk, knowledge base, API documentation, system monitoring, and SQL database.
-tags: [Help Desk, Ticketing System, Knowledge Base, System Monitoring, SQL, API Documentation, Zoho Desk, Postman, Supabase, GitHub, Vercel, UptimeRobot]
+tags: [Help Desk, Ticketing System, Knowledge Base, System Monitoring, SQL, API Documentation, Zoho Desk, Postman, Supabase, GitHub, Vercel, UptimeRobot, Google Sheets]
 date: 2026 - ongoing
 weight: 1
 ---
@@ -19,6 +19,7 @@ Technical Support & Operations
 - Documented system incident INC-001 with full root cause analysis, timeline, impact assessment, and prevention steps.
 - Designed and documented a full REST API simulation in Postman — 15 endpoints across Authentication, Campaign, Webhook, Subscription, and Analytics — with mock server, success and error response examples, and public documentation.
 - Designed support database schema in Supabase (PostgreSQL) and wrote SQL queries for ticket tracking, user management, and support reporting.
+- Built a support dashboard in Google Sheets with Pivot Table, VLOOKUP, conditional formatting, sparklines, and dynamic charts for ticket analysis and reporting.
 
 ## Links
 
@@ -29,3 +30,4 @@ Technical Support & Operations
 https://documenter.getpostman.com/view/47296527/2sBXqFLh6V)
 - [SQL Queries - on GitHub](https://github.com/sarah-amalia/outryx-sql-queries)
 - [Incident Report - on GitHub](https://github.com/sarah-amalia/outryx-incident-report/blob/main/INC-001.md)
+- [Support Dashboard - on Google Sheets](https://docs.google.com/spreadsheets/d/1_uCsE2EgZAZ30e3Nm4AtRIhIAT0wsEkzRWnpK3QiNyY/edit?usp=sharing)
