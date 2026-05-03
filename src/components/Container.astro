@@ -95,60 +95,7 @@ const PDF = "/images/git-common-sequence.png";
   ))}
 </AccordionLayout>
 
-  <AccordionLayout title={"My free-writing"} icon={"carbon:pen"}>
-  <div class="w-full">
-    {blogs.map((item) => (
-      <details class="border-b border-[oklch(var(--s)/0.3)] py-3">
-        <summary class="cursor-pointer list-none flex justify-between items-center gap-4">
-          <div>
-            <p class="font-extrabold uppercase tracking-tighter">{item.frontmatter.title}</p>
-            {item.frontmatter.date && (
-              <p class="text-xs text-secondary font-mono mt-1">{item.frontmatter.date}</p>
-            )}
-          </div>
-          <div class="shrink-0 text-sm">
-            {item.frontmatter.url ? (
-              <a href={item.frontmatter.url} target="_blank" class="link link-hover flex items-center gap-1">
-                {item.frontmatter.url_name ?? "Read"}
-                <Icon name="carbon:link" class="w-4 h-4" />
-              </a>
-            ) : (
-              <span class="opacity-60 text-xs">Click to expand</span>
-            )}
-          </div>
-        </summary>
-
-        {!item.frontmatter.url && (
-          <div class="pt-4 pb-2" style="max-width: 100%; overflow: hidden;">
-            {item.frontmatter.description && (
-              <p class="text-secondary text-sm mb-3">{item.frontmatter.description}</p>
-            )}
-            {Array.isArray(item.frontmatter.tags) && (
-              <div class="flex flex-wrap gap-2 mb-4">
-                {item.frontmatter.tags.map((tag: string) => (
-                  <span class="badge badge-outline text-sm">{tag}</span>
-                ))}
-              </div>
-            )}
-            <article class="prose prose-sm max-w-none">
-              <Fragment set:html={item.compiledContent()} />
-            </article>
-            <div class="flex justify-center mt-6">
-              <button
-                class="btn btn-outline btn-sm"
-                onclick="this.closest('details').removeAttribute('open')"
-              >
-                <Icon name="carbon:chevron-up" class="w-4 h-4" />
-                Collapse
-              </button>
-            </div>
-          </div>
-        )}
-      </details>
-    ))}
-  </div>
-</AccordionLayout>
-
+  
   <AccordionLayout title={"Studies"} icon={"carbon:education"}>
     {
       studies.map((item) => {
@@ -223,3 +170,58 @@ const PDF = "/images/git-common-sequence.png";
     </div>
   </AccordionLayout>
 </div>
+
+<AccordionLayout title={"My free-writing"} icon={"carbon:pen"}>
+  <div class="w-full">
+    {blogs.map((item) => (
+      <details class="border-b border-[oklch(var(--s)/0.3)] py-3">
+        <summary class="cursor-pointer list-none flex justify-between items-center gap-4">
+          <div>
+            <p class="font-extrabold uppercase tracking-tighter">{item.frontmatter.title}</p>
+            {item.frontmatter.date && (
+              <p class="text-xs text-secondary font-mono mt-1">{item.frontmatter.date}</p>
+            )}
+          </div>
+          <div class="shrink-0 text-sm">
+            {item.frontmatter.url ? (
+              <a href={item.frontmatter.url} target="_blank" class="link link-hover flex items-center gap-1">
+                {item.frontmatter.url_name ?? "Read"}
+                <Icon name="carbon:link" class="w-4 h-4" />
+              </a>
+            ) : (
+              <span class="opacity-60 text-xs">Click to expand</span>
+            )}
+          </div>
+        </summary>
+
+        {!item.frontmatter.url && (
+          <div class="pt-4 pb-2" style="max-width: 100%; overflow: hidden;">
+            {item.frontmatter.description && (
+              <p class="text-secondary text-sm mb-3">{item.frontmatter.description}</p>
+            )}
+            {Array.isArray(item.frontmatter.tags) && (
+              <div class="flex flex-wrap gap-2 mb-4">
+                {item.frontmatter.tags.map((tag: string) => (
+                  <span class="badge badge-outline text-sm">{tag}</span>
+                ))}
+              </div>
+            )}
+            <article class="prose prose-sm max-w-none">
+              <Fragment set:html={item.compiledContent()} />
+            </article>
+            <div class="flex justify-center mt-6">
+              <button
+                class="btn btn-outline btn-sm"
+                onclick="this.closest('details').removeAttribute('open')"
+              >
+                <Icon name="carbon:chevron-up" class="w-4 h-4" />
+                Collapse
+              </button>
+            </div>
+          </div>
+        )}
+      </details>
+    ))}
+  </div>
+</AccordionLayout>
+
