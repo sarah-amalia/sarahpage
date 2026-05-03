@@ -1,7 +1,7 @@
 ---
 title: about
 name: "Sarah Amalia"
-designation: "Technical Support & Documentation | Growing in Tech"
+designation: "Technical Support & Documentation"
 location: West Java, ID
 pronouns: "she/her"
 website: 
