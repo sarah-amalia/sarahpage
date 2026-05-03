@@ -32,6 +32,6 @@ tags:
   ]
 learning:
  [
-  Java
+
  ]
 ---
