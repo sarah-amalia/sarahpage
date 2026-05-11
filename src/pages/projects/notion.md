@@ -6,4 +6,5 @@ description: A free and customizable Notion template designed for entry-level wr
 tags: [Notion, Template, Portfolio]
 date: 2026
 weight: 8
+draft: true
 ---
