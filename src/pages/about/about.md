@@ -1,7 +1,7 @@
 ---
 title: about
 name: "Sarah Amalia"
-designation: "Technical Support & Documentation"
+designation: "English‑Indonesian Bilingual | Customer Support & Documentation"
 location: West Java, ID
 pronouns: "she/her"
 website: 
