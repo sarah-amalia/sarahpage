@@ -55,25 +55,11 @@ const PDF = "/images/git-common-sequence.png";
 ---
 
 <div class="join join-vertical gap-1">
-  <AccordionLayout title={"Hi, This is Sarah."} icon={"carbon:user"}>
+  <AccordionLayout title={"Hi, This is Sarah"} icon={"carbon:user"}>
     <article class="prose prose-base max-w-none text-justify">
       <Fragment set:html={about.compiledContent()} />
     </article>
   </AccordionLayout>
-
-   <AccordionLayout title={"My projects"} icon={"carbon:cyclist"}>
-  {projects.map((item) => (
-    <ExpandableCard
-      title={item.frontmatter.title}
-      timeframe={item.frontmatter.date}
-      description={item.frontmatter.description}
-      tags={item.frontmatter.tags}
-      content={item.compiledContent()}
-      url={item.frontmatter.url}
-      url_name={item.frontmatter.url_name}
-    />
-  ))}
-</AccordionLayout>
 
   <AccordionLayout title={"Professional Experience"} icon={"carbon:movement"}>
     {
@@ -153,21 +139,6 @@ const PDF = "/images/git-common-sequence.png";
   </div>
 </AccordionLayout>
 
-  <AccordionLayout title={"Find me"} icon={"carbon:cursor-1"}>
-    <div class="flex flex-wrap content-around gap-4 justify-center">
-      {
-        contact.map((item) => {
-          return (
-            <ContactCard
-              url={item.frontmatter.url}
-              url_name={item.frontmatter.title}
-              icon={item.frontmatter.icon}
-            />
-          );
-        })
-      }
-    </div>
-  </AccordionLayout>
 <AccordionLayout title={"Perspective Sharing"} icon={"carbon:pen"}>
   <div class="w-full">
     {blogs.map((item) => (
@@ -221,5 +192,36 @@ const PDF = "/images/git-common-sequence.png";
     ))}
   </div>
 </AccordionLayout>
+
+   <AccordionLayout title={"Past projects"} icon={"carbon:cyclist"}>
+  {projects.map((item) => (
+    <ExpandableCard
+      title={item.frontmatter.title}
+      timeframe={item.frontmatter.date}
+      description={item.frontmatter.description}
+      tags={item.frontmatter.tags}
+      content={item.compiledContent()}
+      url={item.frontmatter.url}
+      url_name={item.frontmatter.url_name}
+    />
+  ))}
+</AccordionLayout>
+
+  <AccordionLayout title={"Find me"} icon={"carbon:cursor-1"}>
+    <div class="flex flex-wrap content-around gap-4 justify-center">
+      {
+        contact.map((item) => {
+          return (
+            <ContactCard
+              url={item.frontmatter.url}
+              url_name={item.frontmatter.title}
+              icon={item.frontmatter.icon}
+            />
+          );
+        })
+      }
+    </div>
+  </AccordionLayout>
+
 </div>
 
