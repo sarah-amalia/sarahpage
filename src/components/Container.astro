@@ -55,13 +55,13 @@ const PDF = "/images/git-common-sequence.png";
 ---
 
 <div class="join join-vertical gap-1">
-  <AccordionLayout title={"About me"} icon={"carbon:user"}>
+  <AccordionLayout title={"Hi, This is Sarah."} icon={"carbon:user"}>
     <article class="prose prose-base max-w-none text-justify">
       <Fragment set:html={about.compiledContent()} />
     </article>
   </AccordionLayout>
 
-   <AccordionLayout title={"My projects / works"} icon={"carbon:cyclist"}>
+   <AccordionLayout title={"My projects"} icon={"carbon:cyclist"}>
   {projects.map((item) => (
     <ExpandableCard
       title={item.frontmatter.title}
@@ -75,7 +75,7 @@ const PDF = "/images/git-common-sequence.png";
   ))}
 </AccordionLayout>
 
-  <AccordionLayout title={"Experience"} icon={"carbon:movement"}>
+  <AccordionLayout title={"Professional Experience"} icon={"carbon:movement"}>
     {
       works.map((item) => {
         return (
@@ -95,7 +95,7 @@ const PDF = "/images/git-common-sequence.png";
     }
   </AccordionLayout>
   
-  <AccordionLayout title={"Education"} icon={"carbon:education"}>
+  <AccordionLayout title={"Degree"} icon={"carbon:education"}>
     {
       studies.map((item) => {
         return (
@@ -130,7 +130,7 @@ const PDF = "/images/git-common-sequence.png";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Skills & Knowledge"} icon={"carbon:tool-kit"}>
+  <AccordionLayout title={"Skills"} icon={"carbon:tool-kit"}>
   <div class="w-full">
 
     <div class="flex flex-wrap gap-x-3 gap-y-2 mb-6">
@@ -168,7 +168,7 @@ const PDF = "/images/git-common-sequence.png";
       }
     </div>
   </AccordionLayout>
-<AccordionLayout title={"My free-writing"} icon={"carbon:pen"}>
+<AccordionLayout title={"Perspective Sharing"} icon={"carbon:pen"}>
   <div class="w-full">
     {blogs.map((item) => (
       <details class="border-b border-[oklch(var(--s)/0.3)] py-3">
