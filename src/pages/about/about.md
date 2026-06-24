@@ -1,7 +1,7 @@
 ---
 title: about
 name: "Sarah Amalia"
-designation: "English CS | Bytedance"
+designation: "English CS | Bytedance "
 location: YK, ID
 pronouns: "she/her"
 website: 
