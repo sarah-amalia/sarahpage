@@ -1,12 +1,12 @@
 ---
 title: about
 name: "Sarah Amalia"
-designation: "-"
-location: -| Open to -
+designation: "English CS | Bytedance"
+location: YK, ID| Open to freelance and remote
 pronouns: "she/her"
 website: 
 ---
 
-I come from English background with a strong pull toward tech — building experience at the intersection of technical support, knowledge management, and documentation.
+I'm drawn to customer-facing support roles where clear communication, problem-solving, and technical understanding meet.
 
-I'm drawn to customer-facing support roles where clear communication, problem-solving, and technical understanding meet. I constantly expand my technical skills through hands-on projects and real-world experience. 
+I currently work at BPO company as English CS for Bytedance application.
