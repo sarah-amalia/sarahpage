@@ -1,5 +1,5 @@
 ---
-title: English CS for Bytedance
+title: English CS | Bytedance
 date: July - Present
 url: https://www.concentrix.com/
 location: onsite | YK, ID
