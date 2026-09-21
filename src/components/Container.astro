@@ -55,7 +55,7 @@ const PDF = "/images/git-common-sequence.png";
 ---
 
 <div class="join join-vertical gap-1">
-  <AccordionLayout title={"Hi, This is Sarah"} icon={"carbon:user"}>
+  <AccordionLayout title={"About me"} icon={"carbon:user"}>
     <article class="prose prose-base max-w-none text-justify">
       <Fragment set:html={about.compiledContent()} />
     </article>
@@ -99,23 +99,6 @@ const PDF = "/images/git-common-sequence.png";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Milestones"} icon={"carbon:milestone"}>
-    {
-      certificates.map((item) => {
-        return (
-          <Card
-          title={item.frontmatter.title}
-         timeframe={item.frontmatter.date}
-          description={item.compiledContent()}
-         tags={item.frontmatter.tags}
-         url={item.frontmatter.url}
-         url_name={item.frontmatter.org}
-          />
-        );
-      })
-    }
-  </AccordionLayout>
-
   <AccordionLayout title={"Skills"} icon={"carbon:tool-kit"}>
   <div class="w-full">
 
@@ -138,6 +121,23 @@ const PDF = "/images/git-common-sequence.png";
 
   </div>
 </AccordionLayout>
+
+  <AccordionLayout title={"Milestones"} icon={"carbon:milestone"}>
+    {
+      certificates.map((item) => {
+        return (
+          <Card
+          title={item.frontmatter.title}
+         timeframe={item.frontmatter.date}
+          description={item.compiledContent()}
+         tags={item.frontmatter.tags}
+         url={item.frontmatter.url}
+         url_name={item.frontmatter.org}
+          />
+        );
+      })
+    }
+  </AccordionLayout>
 
 <AccordionLayout title={"Perspective Sharing"} icon={"carbon:pen"}>
   <div class="w-full">

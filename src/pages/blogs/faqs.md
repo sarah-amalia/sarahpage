@@ -46,12 +46,16 @@ I am always looking for simple and minimalist design. At first, I really like st
 
 I currently learning new things and exploring variety of tools as I grow my career in tech.
 
+Beside of my job, my side quest including cycling, playing: accoustic guitar, rubik’s cube 2x2 and 3x3, sudoku, and reading random facts.
+
+I sometimes write for personal perspective, letter, and note making which I will share in my upcoming site soon.
+
 </details>
 
 <details>
 <summary>What job can you do?</summary>
 
-My background is English, writing, and translation amd want to expand my expertise in tech. I may passionately do those kind of job along with my tech knowledge to support my work. I love researching, discussion, and continous learning.
+My background is English, writing, and translation I also want to expand my expertise in tech. I may passionately do those kind of job along with my tech knowledge to support my work. I love researching, discussion, and continous learning.
 
 </details>
 

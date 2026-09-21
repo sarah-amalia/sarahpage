@@ -1,5 +1,5 @@
 ---
-title: Intern - Stakeholder Relations
+title: Intern - Communication/Stakeholder Relations
 date: Sep - Dec 2024
 url: https://www.instagram.com/bandarayogyakarta?igsh=OGUxdDZnN2ZqYTBq
 location: onsite | Kulon Progo - YK, ID

@@ -1,10 +1,10 @@
 ---
-title: English CS | Bytedance
+title: Advisor 1, English Customer Service
 date: July - Present
 url: https://www.concentrix.com/
-location: onsite | YK, ID
+location: onsite | ID
 org: Concentrix
-tags: []
+tags: [CRM,English, SOP, CSAT, Lark,  ]
 weight: 1
 ---
-`Contract`
+`Fulltime`
