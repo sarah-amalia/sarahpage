@@ -80,6 +80,20 @@ const PDF = "/images/git-common-sequence.png";
       })
     }
   </AccordionLayout>
+
+    <AccordionLayout title={"Past projects"} icon={"carbon:cyclist"}>
+  {projects.map((item) => (
+    <ExpandableCard
+      title={item.frontmatter.title}
+      timeframe={item.frontmatter.date}
+      description={item.frontmatter.description}
+      tags={item.frontmatter.tags}
+      content={item.compiledContent()}
+      url={item.frontmatter.url}
+      url_name={item.frontmatter.url_name}
+    />
+  ))}
+</AccordionLayout>
   
   <AccordionLayout title={"Degree"} icon={"carbon:education"}>
     {
@@ -191,20 +205,6 @@ const PDF = "/images/git-common-sequence.png";
       </details>
     ))}
   </div>
-</AccordionLayout>
-
-   <AccordionLayout title={"Past projects"} icon={"carbon:cyclist"}>
-  {projects.map((item) => (
-    <ExpandableCard
-      title={item.frontmatter.title}
-      timeframe={item.frontmatter.date}
-      description={item.frontmatter.description}
-      tags={item.frontmatter.tags}
-      content={item.compiledContent()}
-      url={item.frontmatter.url}
-      url_name={item.frontmatter.url_name}
-    />
-  ))}
 </AccordionLayout>
 
   <AccordionLayout title={"Find me"} icon={"carbon:cursor-1"}>
