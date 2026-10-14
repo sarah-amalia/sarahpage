@@ -7,10 +7,8 @@ pronouns: "she/her"
 website: 
 ---
 
-Hi, I'm Sarah — I document what I learn, and I learn by researching and building things.
+Hi, I’m Sarah. I document what I learn, and I learn by researching and building things. I like digging into a topic properly, cross-checking the details, and writing it down clearly. I’m interested in technology, writing and how people learn, and I’m always picking up a new tool or skill. Feel free to look around, and reach out if something here resonates.
 
-I started with an English diploma degree and a habit of digging into things properly — reading past the surface, cross-checking details, writing them down clearly. That turned into a genuine interest in structured writing, technical documentation, and Markdown. Alongside working, I spend my free time building things at the intersection of tech and writing — partly to prove to myself I could, and partly because I enjoy the process of researching something thoroughly and making it easier to understand.
+Hi, I’m Sarah. I’m a curious learner who likes turning what I learn into clear notes and guides. I read a lot of documentation, essays and random facts, and I like building small projects just to understand how things work. Away from the screen, I enjoy cycling, playing acoustic guitar and puzzles like sudoku and Rubik’s cubes. Feel free to look around, and reach out if something here resonates.
 
-I care about accuracy, structure, and writing that respects the reader's time. Right now, I'm looking for remote work — research, documentation, or support-driven — where that instinct is actually useful.
-
-Feel free to look around, and reach out if something here resonates.
+Hi, I’m Sarah. I believe good writing respects the reader’s time, so I care about accuracy, structure and plain language. I learn by researching, building and writing things down, and this site is where I keep what I’ve learned. I’m interested in technology, communication and continuous learning. Feel free to look around, and reach out if something here resonates.
