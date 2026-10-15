@@ -8,3 +8,5 @@ tags: ["Translation", "Content Structuring", "Localization", creative writing, c
 weight: 2
 ---
 `Internship`
+
+International airport serving Yogyakarta, operated by InJourney Airports.
