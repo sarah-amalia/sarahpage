@@ -17,5 +17,3 @@ Understand this site by the topic below.
 I called this site as my personal space for sharing my life activties as I grow my career. 
 
 </details>
-
-s
