@@ -5,7 +5,7 @@ url: https://www.instagram.com/bandarayogyakarta?igsh=OGUxdDZnN2ZqYTBq
 location: onsite | Kulon Progo - YK, ID
 org: Yogyakarta International Airport
 tags: ["Translation", "Content Structuring", "Localization", creative writing, content planning, media monitoring]
-weight: 2
+weight: 3
 ---
 `Internship`
 
