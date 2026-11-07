@@ -1,6 +1,6 @@
 ---
 title: Advisor 1, English CS Global (L1)
-date: July - Present
+date: July - October
 url: https://www.concentrix.com/
 location: onsite | ID
 org: Concentrix
