@@ -9,4 +9,4 @@ weight: 1
 ---
 `Fulltime`
 
-Global customer experience (BPO) company; supporting the TikTok project.
+Global customer experience (BPO) company
