@@ -1,19 +1,20 @@
 ---
 title: outryx - Team Featured Project
-description: A SaaS simulation project for an email marketing automation platform. I owned support and operations end-to-end — help desk, knowledge base, API documentation, system monitoring, and SQL database.
+description: A SaaS simulation project for an email marketing automation platform. I owned the support documentation: knowledge base, incident reports and API docs, built in collaboration with a friend who led marketing.
 tags: [Help Desk, Ticketing System, Knowledge Base, System Monitoring, SQL, API Documentation, Zoho Desk, Postman, Supabase, GitHub, Vercel, UptimeRobot, Google Sheets]
 date: 2026 - ongoing
 weight: 1
 ---
 
 # Project Overview
-outryx is a team portfolio project simulating a real SaaS email marketing automation platform. I owned support and operations end-to-end — from help desk and knowledge base to API documentation, system monitoring, and support database. My teammate handled the marketing side.
+outryx is a team portfolio project simulating a real SaaS email marketing automation platform. I owned the support documentation, from the knowledge base and incident reports to API documentation. My teammate handled the marketing side.
 
 ## Role: 
-Technical Support & Operations
+Technical Support Documentations
 
 ## Key Contributions:
-- Deployed and maintained outryx landing page on Vercel, monitored via UptimeRobot with 100% uptime.- Set up Zoho Desk ticketing system with custom classifications, priority levels, and status pipeline.
+- Deployed and maintained outryx landing page on Vercel, monitored via UptimeRobot with 100% uptime.
+- Set up Zoho Desk ticketing system with custom classifications, priority levels, and status pipeline.
 - Created and resolved 8 support scenarios in Zoho Desk covering login failures, account access issues, API authentication errors, payment failures, webhook issues, and feature malfunctions — including full ticket documentation and resolution notes.
 - Built knowledge base with 7 articles covering login issues, API errors, payment failures, dashboard and feature issues, and webhook troubleshooting.
 - Documented system incident INC-001 with full root cause analysis, timeline, impact assessment, and prevention steps.
