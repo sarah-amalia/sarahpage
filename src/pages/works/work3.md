@@ -9,4 +9,4 @@ weight: 1
 ---
 `Fulltime`
 
-Global customer experience (BPO) company
+Global BPO company, supporting a global social media platform.
