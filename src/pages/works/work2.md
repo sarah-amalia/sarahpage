@@ -1,10 +1,10 @@
 ---
-title: Advisor 1, English CS Global (L1)
+title: Advisor 1, English Customer Support Agent
 date: July - October
 url: https://www.concentrix.com/
 location: onsite | ID
 org: Concentrix
-tags: [CRM,English, SOP, Lark, Ticketing System, Help Desk, Markdown ]
+tags: [CRM,English, SOP, Ticketing System, Help Desk ]
 weight: 2
 ---
 `Fulltime`

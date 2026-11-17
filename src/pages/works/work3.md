@@ -1,5 +1,5 @@
 ---
-title: Global Customer Support (L1.5)
+title: L1.5 Support Specialist
 date: November - Present
 url: https://www.concentrix.com/
 location: onsite | ID
